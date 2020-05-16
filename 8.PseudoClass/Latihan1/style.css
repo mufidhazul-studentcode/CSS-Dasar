@@ -1,0 +1,49 @@
+.hai {
+    color: orange;
+}
+
+.hai:hover {
+    color: maroon;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.hai:active {
+    font-style: italic;
+}
+
+.hai:visited {
+    color: palevioletred;
+}
+
+ul li:nth-child(odd) a {
+    color: green;
+}
+
+ul li:nth-child(odd) a:hover {
+    color: red;
+}
+
+ul li:nth-child(even) a {
+    color: lime;
+}
+
+ul li:nth-child(even) a:hover {
+    color: black;
+}
+
+ol li:nth-child(2n+3) a {
+    color: teal;
+}
+
+ol li:nth-child(2n+3) a:hover {
+    color: maroon;
+}
+
+p:first-of-type {
+    color: mediumblue;
+}
+
+p:last-of-type {
+    color: tomato;
+}
